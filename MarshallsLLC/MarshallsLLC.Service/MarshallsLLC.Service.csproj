@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MarshallsLLC.CrossCutting.IoC\MarshallsLLC.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\MarshallsLLC.Data.Context\MarshallsLLC.Data.Context.csproj" />
+  </ItemGroup>
+
+</Project>

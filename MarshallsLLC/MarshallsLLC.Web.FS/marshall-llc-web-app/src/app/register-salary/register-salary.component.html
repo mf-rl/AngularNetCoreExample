@@ -1,0 +1,61 @@
+<h1  mat-dialog-title>Registrar salario</h1>
+<mat-dialog-content>  
+    <form>
+        <table class='table table-striped' aria-labelledby="tableLabel">
+            <tbody>
+                <tr>
+                <td>
+                    <label for="division-select">División:</label><br/>
+                    <select disabled name="division-select" id="division-select">
+                        <option>Choose Division</option>
+                        <option *ngFor="let division of data.divisionList" [value]="division.id" [selected]="division.id === data.enrollment.division.id">{{division.name}}</option>
+                    </select><br/><br/>
+                    <label for="office-select">Oficina:</label><br/>
+                    <select disabled name="office-select" id="office-select">
+                        <option>Choose Office</option>
+                        <option *ngFor="let office of data.officeList" [value]="office.id" [selected]="office.id === data.enrollment.office.id">{{office.name}}</option>
+                    </select><br/><br/>
+                    <label for="position-select">Posición:</label><br/>
+                    <select disabled name="position-select" id="position-select">
+                        <option>Choose Position</option>
+                        <option *ngFor="let position of data.positionList" [value]="position.id" [selected]="position.id === data.enrollment.position.id">{{position.name}}</option>
+                    </select><br/><br/>
+                    <label for="grade-select">Grado:</label><br/>
+                    <select name="grade-select" id="grade-select">
+                        <option value="-1">- Seleccionar grado -</option>
+                        <option *ngFor="let item of grades" [value]="item">{{item}}</option>
+                    </select><br/><br/>
+                    <label for="year-month-input">Mes-Año:</label><br/>
+                    <mat-form-field>
+                        <input  matInput placeholder="00/00" type="month"  name="year-month-input" id="year-month-input" required>
+                    </mat-form-field><br/>
+                </td>
+                <td>
+                    <label for="base-salary-input">Salario base:</label><br/>
+                    <input name="base-salary-input" [value]="data.enrollment.baseSalary | number : '1.2-2'" readonly><br/><br/>
+                    <label for="production-bonus-input">Bonus producción:</label><br/>
+                    <mat-form-field>
+                        <input  matInput placeholder="0.00" type="number"  name="production-bonus-input" id="production-bonus-input" required>
+                    </mat-form-field><br/>
+                    <label for="compensation-bonus-input">Bonus compensación:</label><br/>
+                    <mat-form-field>
+                        <input  matInput placeholder="0.00" type="number"  name="compensation-bonus-input" id="compensation-bonus-input" required>
+                    </mat-form-field><br/>
+                    <label for="commission-input">Comisión:</label><br/>
+                    <mat-form-field>
+                        <input  matInput placeholder="0.00" type="number"  name="commission-input" id="commission-input" required>
+                    </mat-form-field><br/>
+                    <label for="contributions-input">Contribuciones:</label><br/>
+                    <mat-form-field>
+                        <input  matInput placeholder="0.00" type="number"  name="contributions-input" id="contributions-input" required>
+                    </mat-form-field><br/>
+                </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>    
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button  mat-raised-button (click)="saveData()">Guardar</button>
+    <button  mat-raised-button (click)="closeMe()">Close</button>
+</mat-dialog-actions>

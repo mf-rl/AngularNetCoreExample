@@ -1,0 +1,58 @@
+<h1 id="tableLabel">Salary Detail List</h1>
+<p *ngIf="!salaryDetails"><em>Loading...</em></p>
+<form>
+  <label for="exampleFormControlInput1">Buscar empleado</label>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+      Por código
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      Por nombre
+    </label>
+  </div>
+  <input class="form-control" id="filterText" placeholder="Texto de búsqueda">
+  <br/>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Salarios</label>
+    <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="salaryDetails">
+      <thead>
+        <tr>
+          <th>Código del empleado</th>
+          <th>Nombre Completo</th>
+          <th>División</th>
+          <th>Posición</th>
+          <th>Fecha de Inicio</th>
+          <th>Cumpleaños</th>
+          <th>Número de Identificación</th>
+          <th>Salario Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let salaryDetail of salaryDetails">
+          <td>{{ salaryDetail.employeeCode }}</td>
+          <td>{{ salaryDetail.employeeName + ' ' + salaryDetail.employeeSurname }}</td>
+          <td>{{ salaryDetail.division }}</td>
+          <td>{{ salaryDetail.position }}</td>
+          <td>{{ salaryDetail.beginDate }}</td>
+          <td>{{ salaryDetail.birthday }}</td>
+          <td>{{ salaryDetail.identificationNumber }}</td>
+          <td>{{ salaryDetail.totalSalary }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <label for="exampleFormControlTextarea1">Página {{ pageNumber }} de {{ totalPages }}</label>
+    <br />
+    <label for="exampleFormControlTextarea1">Total de registros: {{ totalRecords }}</label>
+    <br />
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button class="btn btn-secondary" [disabled]="firstPage==''" (click)="LoadData(firstPage)">Primera</button>
+      <button class="btn btn-secondary" [disabled]="previousPage==''" (click)="LoadData(previousPage)">Anterior</button>
+      <button class="btn btn-secondary" [disabled]="nextPage==''" (click)="LoadData(nextPage)">Siguiente</button>
+      <button class="btn btn-secondary" [disabled]="lastPage==''" (click)="LoadData(lastPage)">Última</button>
+    </div>
+  </div>
+</form>

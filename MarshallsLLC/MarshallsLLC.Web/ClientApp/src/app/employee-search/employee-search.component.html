@@ -1,0 +1,44 @@
+<h1 id="tableLabel">Search employee</h1>
+<form>
+  <label for="searchForm">Buscar empleado</label>
+  <div class="form-group" id="searchForm">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioSearch" id="flexRadioSearch1">
+      <label class="form-check-label" for="flexRadioSearch1">
+        Por código xD xD xD ===> xD
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioSearch" id="flexRadioSearch2" checked>
+      <label class="form-check-label" for="flexRadioSearch2">
+        Por nombre
+      </label>
+    </div>
+    <input class="form-control" id="filterText" placeholder="Texto de búsqueda">
+  </div>  
+</form>
+
+
+
+
+
+<!--<div>
+  <mat-form-field>
+    <input matInput placeholder="Search" aria-label="State" [matAutocomplete]="auto" [formControl]="searchMoviesCtrl">
+    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+      <mat-option *ngIf="isLoading" class="is-loading">Loading...</mat-option>
+      <ng-container *ngIf="!isLoading">
+        <mat-option *ngFor="let movie of filteredMovies" [value]="movie.Title">
+          <span><b>{{movie.Title}}</b> ({{movie.Year}})</span>
+        </mat-option>
+      </ng-container>
+    </mat-autocomplete>
+  </mat-form-field>
+  <br>
+  <ng-container *ngIf="errorMsg; else elseTemplate">
+    {{errorMsg}}
+  </ng-container>
+  <ng-template #elseTemplate>
+    <h5>Selected Value: {{searchMoviesCtrl.value}}</h5>
+  </ng-template>
+</div>-->

@@ -1,0 +1,405 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.CrossCutting.IoC\\MarshallsLLC.CrossCutting.IoC.csproj": {}
+  },
+  "projects": {
+    "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Application\\MarshallsLLC.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Application\\MarshallsLLC.Application.csproj",
+        "projectName": "MarshallsLLC.Application",
+        "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Application\\MarshallsLLC.Application.csproj",
+        "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Context\\MarshallsLLC.Data.Context.csproj": {
+                "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Context\\MarshallsLLC.Data.Context.csproj"
+              },
+              "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Domain\\MarshallsLLC.Domain.csproj": {
+                "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Domain\\MarshallsLLC.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.CrossCutting.IoC\\MarshallsLLC.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.CrossCutting.IoC\\MarshallsLLC.CrossCutting.IoC.csproj",
+        "projectName": "MarshallsLLC.CrossCutting.IoC",
+        "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.CrossCutting.IoC\\MarshallsLLC.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Application\\MarshallsLLC.Application.csproj": {
+                "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Application\\MarshallsLLC.Application.csproj"
+              },
+              "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Repository\\MarshallsLLC.Data.Repository.csproj": {
+                "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Repository\\MarshallsLLC.Data.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Context\\MarshallsLLC.Data.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Context\\MarshallsLLC.Data.Context.csproj",
+        "projectName": "MarshallsLLC.Data.Context",
+        "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Context\\MarshallsLLC.Data.Context.csproj",
+        "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Context\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Domain\\MarshallsLLC.Domain.csproj": {
+                "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Domain\\MarshallsLLC.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "CommonServiceLocator": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Repository\\MarshallsLLC.Data.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Repository\\MarshallsLLC.Data.Repository.csproj",
+        "projectName": "MarshallsLLC.Data.Repository",
+        "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Repository\\MarshallsLLC.Data.Repository.csproj",
+        "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Context\\MarshallsLLC.Data.Context.csproj": {
+                "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Data.Context\\MarshallsLLC.Data.Context.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Domain\\MarshallsLLC.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Domain\\MarshallsLLC.Domain.csproj",
+        "projectName": "MarshallsLLC.Domain",
+        "projectPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Domain\\MarshallsLLC.Domain.csproj",
+        "packagesPath": "C:\\Users\\soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Repos\\developer_test\\MarshallsLLC\\MarshallsLLC.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
