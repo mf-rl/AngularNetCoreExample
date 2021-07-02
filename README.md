@@ -1,2 +1,6 @@
 # AngularNetCoreExample
 Example test of web app built following the concept of DDD, using ASP.Net Core 5.0 for the API Rest services, app, domain and data layers, and Angular for presentation layer.
+
+
+[![Website](https://img.shields.io/badge/Visual%20%20Studio%20%20.Net-blue?style=flat&logo=visual-studio)](https://visualstudio.microsoft.com/vs/) [![Website](https://img.shields.io/badge/.NET-purple?style=flat&logo=.net)](https://dotnet.microsoft.com/) [![Website](https://img.shields.io/badge/Visual%20%20Studio%20%20Code-blue?style=flat&logo=visual-studio-code)](https://code.visualstudio.com/) [![Website](https://img.shields.io/badge/Microsoft%20%20SQL%20%20Server-red?style=flat&logo=microsoft-sql-server)](https://www.microsoft.com/en-us/sql-server/sql-server-2019) [![Website](https://img.shields.io/badge/C%23-red?style=flat&logo=c-sharp)](https://docs.microsoft.com/en-us/dotnet/csharp/) [![Website](https://img.shields.io/badge/Angular-red?style=flat&logo=angular)](https://angular.io/) [![Website](https://img.shields.io/badge/TypeScript-gray?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![Website](https://img.shields.io/badge/Swagger-green?style=flat&logo=swagger)](https://swagger.io/)
+ 
